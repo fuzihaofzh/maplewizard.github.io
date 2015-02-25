@@ -1,0 +1,661 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="baidu-site-verification" content="BdchXXdzLi" />
+  <meta name="google-site-verification" content="Js0CGXsHxNJBkQ55HoUIwJx6TuBtGbDARK2QTTE7DLA" />
+  
+  <title>第 2 页 | 切问录</title>
+  <meta name="author" content="Z.H. Fu">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="切问录"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/images/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="切问录" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2489a13dce6ecb0fb337a44cf06a0e6e' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'true']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  
+    <!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">切问录</a></h1>
+  <h2><a href="/">$\mathscr{MATH\quad IS\quad FUN}$</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">主页</a></li>
+    
+      <li><a href="/archives">归档</a></li>
+    
+      <li><a href="/about">关于</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper">
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-04-27T02:55:28.000Z"><a href="/2014/04/27/基于形态学的3D点云重建/">2014-04-27</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/04/27/基于形态学的3D点云重建/">基于形态学的3D点云重建</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="基于形态学的3D点云重建"><center>基于形态学的3D点云重建</center></h1><center>By Z.H. Fu</center><br><center>切问录 <a href="http://maplewizard.github.io">maplewizard.github.io</a>  </center>
+
+<p>这是一年前做的一个小算法，今天把它搬运过来。该算法的主要目的是利用灰度形态学腐蚀对3D点云进行曲面重建。<br>给定点云的数据文件（这是美国卫星的数据，能在官网上下载到），寻找一种方法，重建原来的曲面。点云数据为卫星扫描的las文件。<br>点云数据：</p>
+<center><img src="/images/pointCloudOri.jpg" alt="pointCloudOri.jpg"><br>原始点云</center><br><center><img src="/images/pointCloudFinal.jpg" alt="pointCloudFinal.jpg"><br>处理后的效果</center>
+
+<p>由于是卫星得到的数据，因此可以发现数据点基本都是楼房的屋顶。<br>而他的平面视图如下：<br>
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2014/04/27/基于形态学的3D点云重建/#more" class="more-link">阅读更多</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-04-26T10:33:29.000Z"><a href="/2014/04/26/国史大纲读书笔记/">2014-04-26</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/04/26/国史大纲读书笔记/">国史大纲读书笔记</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="国史大纲读书笔记"><center><strong>国史大纲读书笔记</strong></center></h1><center>by Z.H. Fu</center><br><center>切问录 <a href="http://maplewizard.github.io">maplewizard.github.io</a>  </center>
+
+<p>　　此书成于民族危难之际，于仓促流亡中作成，然则艰苦的条件却未能影响此书之博大，作者识解之渊博、见地之透彻，纵使七十年后翻看此书，亦多能得其教益。作者作书本意，或在加强国民信心，增强国民的凝聚力，故而字里行间，无不透露着一种对历史的温情与敬意。历史得失，即在今日，故不乏其可叹之事，亦颇有其可鉴之处。若议废封建、魏晋官制、北朝改革、安石变法，其事或成或败，其议或褒或贬，观其是非而览其得失，亦多于吾辈切己修身处，多有所教言，故以其要略而录于是。</p>
+<p>[TOC]
+　　</p>
+<h2 id="对于国史之信念">对于国史之信念</h2><blockquote>
+<p>　　一、当信任何一国之国民，尤其是自称知识在水平线以上之国民，对其本国已往历史，应该略有所知。(否则最多只算一有知识的人，不能算一有知识的国民。)<br>　　二、所谓对其本国已往历史略有所知者，尤必附随一种对其本国已往历史之温情与敬意。(否则只算知道了一些外国史，不得云对本国史有知识。)<br>　　三、所谓对其本国已往历史有一种温情与敬意者，至少不会对其本国历史抱一种偏激的虚无主义，(即视本国已往历史为无一点有价值，亦无一处足以使彼满意。)亦至少不会感到现在我们是站在已往历史最高之顶点，(此乃一种浅薄狂妄的进化观。)而将我们当身种种罪恶与弱点，一切诿卸于古人。(此乃一种似是而非之文化自谴。)<br>　　四、当信每一国家必待其国民具备上列诸条件者比较渐多，其国家乃再有向前发展之希望。(否则其所改进，等于一个被征服国或次殖民地之改进，对其自身国家不发生关系。换言之，此种改进，无异是一种变相的文化征服，乃其文化自身之萎缩与消灭，并非其文化自身之转变与发皇。) </p>
+</blockquote>
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2014/04/26/国史大纲读书笔记/#more" class="more-link">阅读更多</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-04-15T05:49:47.000Z"><a href="/2014/04/15/拉格朗日乘数法/">2014-04-15</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/04/15/拉格朗日乘数法/">拉格朗日乘数法</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="拉格朗日乘数法"><center>拉格朗日乘数法</center></h1><p><center>By Z.H. Fu</center></p>
+<p><center>切问录 <a href="http://maplewizard.github.io" target="_blank" rel="external">maplewizard.github.io</a>  </center><br>　　拉格朗日乘数法在优化理论中起着非常重要的作用。本文将给出拉格朗日乘数法的具体步骤和一个直观的理解。</p>
+<p>　　拉格朗日乘数法解决这样一个问题：<br>　　$$\left{\begin{align}maximize\quad &amp;f(x,y) \\ subject \quad to\quad &amp;g(x,y)=c\end{align}\right.$$<br>　　我们在等高线图上考虑，先任取$f(x,y)=d_2$此时，等高线与约束线的交点既是满足约束且取值为$d_2$的点。下面，我们逐渐增大$f(x,y)$的取值，即$d$逐渐由$d_2$变为$d_1$，这个过程中，$f(x,y)$的值逐渐增大，当达到$d_1$后，再增大一点点，即不满足约束，因此$d_1$既是$f(x,y)$在该约束下的最大值。而这个时候，约束曲线正好和等高线相切。既是说，在这一点，$f(x,y)$和$g(x,y)$的梯度方向相同，拉格朗日乘数法即是刻画了梯度方向相同这一特点。我们能找到一个标量$\lambda$使得：　　$$\nabla f+\lambda \nabla g=0 $$<br>　　<img src="\images\450px-LagrangeMultipliers2D.svg.png" alt="LagrangeMultiplier"> <img src="\images\450px-LagrangeMultipliers3D.png" alt="LagrangeMultiplier3D"><br>　　以下给出更规范的描述。<br>　　令拉格朗日函数<br>　　$$\Lambda(x,y,\lambda)=f(x,y)+\lambda (g(x,y)-c)$$<br>　　优化问题取得最大值，等价于拉格朗日函数取得驻点。即：<br>　　$$\nabla_{x,y,\lambda}\Lambda=0$$<br>　　这样，就将一个带约束优化问题，转化成了一个无约束的极值问题。</p>
+<h2 id="参考文献">参考文献</h2><p>[1]拉格朗日乘数 <a href="https://zh.wikipedia.org/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B9%98%E6%95%B0" target="_blank" rel="external">https://zh.wikipedia.org/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B9%98%E6%95%B0</a></p>
+<p>[2]Lagrange multiplier <a href="https://en.wikipedia.org/wiki/Lagrange_multiplier" target="_blank" rel="external">https://en.wikipedia.org/wiki/Lagrange_multiplier</a></p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-04-03T14:49:01.000Z"><a href="/2014/04/03/从Bernstein 多项式到Bézier曲线/">2014-04-03</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/04/03/从Bernstein 多项式到Bézier曲线/">从Bernstein多项式到Bézier曲线</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="从Bernstein多项式到Bézier曲线"><center>从Bernstein多项式到Bézier曲线</center></h1><p><center>By Z.H. Fu</center></p>
+<p><center>切问录 <a href="http://maplewizard.github.io" target="_blank" rel="external">maplewizard.github.io</a>  </center><br>　　因为需要用FFD（Free Form Deformation）故而今天又学习了一下Bernstein多项式。现在将笔记记录如下。</p>
+<p>　　首先给出Bernstein多项式：<br>　　$$b_{\nu,n}(x)=\binom{n}{\nu}x^\nu(1-x)^{n-\nu},\nu=0,…,n.$$<br>　　其中$x\in[a,b],\binom{n}{\nu}$是二项式系数。</p>
+<p>　　我们再来回顾一下Bernstein多项式产生的历史。Bernstein多项式曾经被用来证明威尔斯特拉斯逼近定理（Weierstrass approximation theorem）。这个定理的大概意思是说：在$[a,b]$区间上所有的连续函数都可以用多项式来逼近。而且收敛性很强，是一致收敛。也就是说，可以将函数写成若干个Bernstein多项式相加的形式，而且，随着$n\rightarrow \infty$，该多项式将一致收敛到原函数！用表达式表示如下：<br>　　$$B_n(f)(x)=\sum^n_{\nu=0}f(\frac{\nu}{n})b_{\nu,n}(x)$$<br>　　其中$x\in[0,1]$,当$n\rightarrow \infty$时，该多项式收敛到原函数：<br>　　$$\lim_{n\rightarrow \infty}B_n(f)(x)=f(x)$$<br>　　好，我们发现这个跟傅里叶展开一模一样，所不同的是这里用的是多项式函数，Bernstein多项式在这里充当着基函数的角色。我们自然想到，能不能舍掉一些“高频分量”得到函数的大概形状？答案是显然的。我们选取若干个点，用这几个函数值来构造Bernstein多项式，得出的多项式就是一种“滤波”后的函数。</p>
+<p>　　以下引出Bézier曲线。我们现在单纯地从基于分量的关系来看，我们有：<br>　　$$B_n(x)=\sum^n_{\nu=0}\beta_\nu b_{\nu,n}(x)$$<br>　　其中$\beta_\nu$是基函数的系数。将$\beta_\nu$取成一些点，我们有：<br>　　$$\mathbf{B_n(x)}=\sum^n_{\nu=0}\mathbf{P_\nu} b_{\nu,n}(x),x\in[0,1]$$<br>$\mathbf{P_\nu}$是我们给的点的坐标，而当$x$从0到1扫过时，我们就得到了一条曲线，这就是Bézier曲线。一个直观的图形如下：<br>　　<br>　　<img src="\images\Bezier_3_big.gif" alt="Bezier">
+　　</p>
+<h2 id="参考文献：">参考文献：</h2><p>Bernstein polynomial</p>
+<p><a href="https://en.wikipedia.org/wiki/Bernstein_polynomial" target="_blank" rel="external">https://en.wikipedia.org/wiki/Bernstein_polynomial</a></p>
+<p>Bézier curve</p>
+<p><a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve" target="_blank" rel="external">https://en.wikipedia.org/wiki/B%C3%A9zier_curve</a></p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-04-01T04:48:10.000Z"><a href="/2014/04/01/利用线性代数的方法求斐波那契数列的通项/">2014-04-01</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/04/01/利用线性代数的方法求斐波那契数列的通项/">利用线性代数的方法求斐波那契数列的通项</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="利用线性代数的方法求斐波那契数列的通项"><center>利用线性代数的方法求斐波那契数列的通项</center></h1><p><center>By Z.H. Fu</center></p>
+<p><center>切问录 <a href="http://maplewizard.github.io">maplewizard.github.io</a>  </center><br>这是之前的一篇文章，方法是某天中午睡觉的时候突然梦到的。今天把它搬运过来。</p>
+<p>利用线性代数的方法求斐波那契数列的通项<br>程序员们一定知道斐波那契数列的故事斐波那契数列指的是这样一个数列：1、1、2、3、5、8、13、21、34…… 这个数列从第三项开始，每一项都等于前两项之和。以前高中竞赛的时候或许人学习过特征方程来解这个问题，但当时也仅仅是会这种方法，到底是什么原理，还必须从线代的角度上来解释。<br>我们先来讲讲线性变换的概念怎么用于斐波那契数列。数列一项一项往前递推，就好像线性变换一次又一次地作用到一个向量上，那么作用n次后得到的向量中的某一项，就对应于数列的某一项。我们来看看具体的例子。对于斐波那契数列，我们有 $a_n=a_{n-1}+a_{n-2}$  那么可以用矩阵的形式来表示这个变换：<br>我们首先通过前几项来找到变换矩阵$\mathbf{A}$<br>$$\left[ \begin{matrix}<br>   {a}_{2}  \\<br>   {a}_{3}   \\<br>\end{matrix} \right]= \left[ \begin{matrix}<br>   ? &amp; ?  \\<br>   ? &amp; ?  \\<br>\end{matrix} \right]\left[ \begin{matrix}<br>   {a}_{1}   \\<br>   {a}_{2}   \\<br>\end{matrix} \right]<br>$$<br>很明显，通过通项之间的关系可以看出：<br>$$\mathbf{A}=\left[ \begin{matrix}<br>   0 &amp; 1 \\<br>   1 &amp; 1  \\<br>\end{matrix} \right]$$<br>令$\mathbf{x_n}=\left[ \begin{matrix}a_n \\ a_{n+1}\end{matrix} \right]$，那么我们根据这个递推关系，很容易得出:<br>
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2014/04/01/利用线性代数的方法求斐波那契数列的通项/#more" class="more-link">阅读更多</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-03-25T14:55:18.000Z"><a href="/2014/03/25/如何用latex做ppt/">2014-03-25</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/03/25/如何用latex做ppt/">如何用LaTeX做ppt</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="如何用LaTeX做ppt"><center>如何用LaTeX做ppt</center></h1><p><center>By Z.H. Fu</center></p>
+<p><center>切问录 <a href="http://maplewizard.github.io">maplewizard.github.io</a>  </center><br>自从看了$\LaTeX$华丽的公式之后，就开始对office产生了质疑。毕竟，它的存储方式是它自己的格式，用其他的任何工具都无法编辑（有的话质量也不会很好）。因此，我们所有的文档都需要以一种纯文本的形式来保存。有了$\LaTeX$和MarkDown，这一理想终于得以实现。今天探索了一下如何使用$\LaTeX$制作ppt（当然，是pdf下的演示文档），现将过程和模板记录一下。</p>
+<p>我们采用beamer来实现演示文档的功能，beamer是$\LaTeX$下最著名的一个演示文档的包，同时，我们将采用tikz来绘制流程图。<br>效果如下：<br><img src="/images/beamer2.PNG" alt="beamer2"><br>
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2014/03/25/如何用latex做ppt/#more" class="more-link">阅读更多</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-03-17T04:37:54.000Z"><a href="/2014/03/17/让marked与mathjax和谐共存/">2014-03-17</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/03/17/让marked与mathjax和谐共存/">让marked与MathJax和谐共存</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="让marked与MathJax和谐共存"><center>让marked与MathJax和谐共存</center></h1><p><center>By Z.H. Fu</center></p>
+<p><center>切问录 <a href="http://maplewizard.github.io">maplewizard.github.io</a>  </center><br>先说明一下问题，marked是使用广泛的Markdown解析器，用于将Markdown语言翻译成HTML，而MathJax则用于页面公式渲染，其工作方式是在页面上识别LaTeX公式，然后将其转义。最近用Hexo在GitHub上搭建了自己的博客，由于内容需要，必须大量使用数学公式，于是决定使用MathJax进行渲染，因此需要在页面中嵌入MathJax，方法如下：<br>在header.html中加入：<br><figure class="highlight xml"><figcaption><span>lang: javascript</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span>
+</pre></td></tr></table></figure></p>
+<p>由于MathJax默认没有开启单个美元符号的inline模式，需要手动打开，代码如下：</p>
+<figure class="highlight xml"><figcaption><span>lang: javascript</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/x-mathjax-config"</span>&gt;</span><span class="javascript">MathJax.Hub.Config(&#123; tex2jax: &#123;inlineMath: [[<span class="string">'$'</span>,<span class="string">'$'</span>], [<span class="string">'\\('</span>,<span class="string">'\\)'</span>]]&#125;&#125;);</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span>
+</pre></td></tr></table></figure>
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2014/03/17/让marked与mathjax和谐共存/#more" class="more-link">阅读更多</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-03-15T09:14:02.000Z"><a href="/2014/03/15/偏微分方程变分问题与原问题等价性的探讨/">2014-03-15</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/03/15/偏微分方程变分问题与原问题等价性的探讨/">偏微分方程变分问题与原问题等价性的探讨</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="偏微分方程变分问题与原问题等价性的探讨"><center>偏微分方程变分问题与原问题等价性的探讨</center></h1><center>By Z.H. Fu</center><br><center>切问录 <a href="http://maplewizard.github.io">maplewizard.github.io</a>  </center>
+
+<p>在用有限元方法求解偏微分方程的过程中，首先需要将微分方程写成它的弱形式（变分问题），然后通过求解变分问题，来得出原问题的解。本文旨在以椭圆偏微分方程为例，探讨其变分形式与原问题的等价性。</p>
+<h2 id="原始问题">原始问题</h2><p>用有限元法求解偏微分方程：<br>$$\frac{\partial}{\partial x}\beta\frac{\partial u}{\partial x}+\frac{\partial}{\partial y}\beta\frac{\partial u}{\partial y}=-f$$<br>计算域为$\Omega$，在边界上满足以下边界条件：$$\left{ \begin{align}<br>   u&amp;=g_0,\quad 在\Gamma_D上 \\<br>  \partial_n u&amp;=g_1 ,\quad 在\Gamma_N上<br>\end{align} \right.$$<br>其中，$\Gamma$是计算域的边界，$n$是边界外法线，而$\Gamma_D$和$\Gamma_N$分别叫做Dirichlet边界和Neumann边界，在这上面的边界条件分别称作做Dirichlet边界条件和Neumann边界条件。</p>
+<h2 id="能量方程">能量方程</h2><p>下面给出其“能量方程”，也就是对应的泛函$J$，（后面将证明变分$\delta J=0$的解和原问题等价 ）。至于这个方程怎么来的，我见过的所有将变分原理的都是直接给的，而我认为可以通过偏微分方程的形式，来拼凑，有兴趣的可以试一试。<br>$$J(u)=\iint_\Omega(\frac{1}{2}(\beta(\frac{\partial u}{\partial x})^2+\beta(\frac{\partial u}{\partial y})^2)-fu)dxdy$$<br>变分法的思想认为，$J(u)$取极值的时候，就是原始问题的解，，$J(u)$取极值等价于说它的变分等于零，下面写出$\delta J=0$：</p>
+<p>$$\delta J(u)=\iint_\Omega(\beta\frac{\partial u}{\partial x}\frac{\partial \delta u}{\partial x}+\beta\frac{\partial u}{\partial y}\frac{\partial \delta u}{\partial y}-f\delta u)dxdy$$</p>
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2014/03/15/偏微分方程变分问题与原问题等价性的探讨/#more" class="more-link">阅读更多</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-03-14T09:49:04.000Z"><a href="/2014/03/14/哪个小球先下落？/">2014-03-14</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/03/14/哪个小球先下落？/">哪个小球先下落？</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="哪个小球先下落？"><center>哪个小球先下落？</center></h1><p><center>By Z.H. Fu</center></p>
+<p><center>切问录 <a href="http://maplewizard.github.io" target="_blank" rel="external">maplewizard.github.io</a>  </center><br>以前理论力学课上做过一个实验，就是把各种圆的东西放到斜坡上让他们往下滚，问最后到达斜面底端的次序。</p>
+<p><img src="/images/Rolling_Racers_-_Moment_of_inertia.gif" alt="Rolling_Racers_-_Moment_of_inertia"></p>
+<p>可以看到，黄球最先滑下，其次是蓝柱，再次是红球，最后是绿柱。<br>各小球质量相等，直径相等，性质如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">红球</th>
+<th style="text-align:left">黄球</th>
+<th style="text-align:left">绿柱</th>
+<th style="text-align:left">蓝柱</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">空心</td>
+<td style="text-align:left">实心</td>
+<td style="text-align:left">空心</td>
+<td style="text-align:left">实心</td>
+</tr>
+</tbody>
+</table>
+<p>各个小球受重力相等，那么为什么会出现这种现象呢？<br>这就需要考虑惯性矩。我们知道质量是惯性的度量，表示一个物体受力之后的变化程度，惯性大的受影响小。而惯性矩则是描述物体受力矩作用后的反应，惯性矩大，则受力矩作用小。而惯性矩的定义为：<br>$$M=\int \rho \mathbf{r}^2dv$$<br>其中，$\mathbf{r}$是到主轴的向量。因此，可以看出，质量越集中到边上，则r越大，则惯性矩越大，同等力矩下（这时重力产生的力矩一样大）当然是惯性矩小的实心的物体最先滑下（黄球和蓝柱），随后再是空心的东西。而柱体可以看成是球体把里面的东西减少给放到外面去了，因此，惯性矩比球体大。因此才有这种运动顺序。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-03-14T08:12:59.000Z"><a href="/2014/03/14/推广的分部积分与格林恒等式/">2014-03-14</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2014/03/14/推广的分部积分与格林恒等式/">推广的分部积分与格林恒等式</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="推广的分部积分与格林恒等式"><center>推广的分部积分与格林恒等式</center></h1><center>By Z.H. Fu</center><br><center>切问录 <a href="http://maplewizard.github.io">maplewizard.github.io</a>  </center>
+
+<p>在高数中，我们学了格林公式（Threom）：<br>$$\iint_\Omega(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})=\oint_LPdx+Qdy$$<br>这个公式实际上是斯托克斯公式在二维的特殊形式。但除此之外，格林还有三个恒等式（Identity），在有限元中，这三个恒等式都有着非常重要的作用。</p>
+<p>而分部积分作为微积分里面一个很基础的公式，能推倒出相当多的定理。本文就利用分部积分公式，推导格林的三个恒等式。<strong>这三个恒等式和格林公式没有任何关系</strong>。</p>
+<h2 id="1-_分部积分公式">1. 分部积分公式</h2><p>首先，复习一下分部积分公式：<br>$$\int u(x)v’(x)dx=u(x)v(x)-\int u’(x)v(x)dx$$<br>或者直接写成：<br>$$\int udv=uv-\int vdu$$</p>
+<h2 id="2-_推广的分部积分公式（标量场、向量场混合分部积分公式）">2. 推广的分部积分公式（标量场、向量场混合分部积分公式）</h2>
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2014/03/14/推广的分部积分与格林恒等式/#more" class="more-link">阅读更多</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+<nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">下一页 &raquo;</a>
+    </nav></div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:fuzihao.org">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">最新文章</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2015/02/19/org-mode教程/">org-mode入门教程</a>
+      </li>
+    
+      <li>
+        <a href="/2015/01/17/互信息的理解/">互信息的理解</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/23/仿射空间与仿射变换/">仿射空间与仿射变换</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/23/用chrome修改js代码/">用chrome修改js代码</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/08/从Logistic回归到神经网络/">从Logistic回归到神经网络</a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/C/">C++</a><small>1</small></li>
+  
+    <li><a href="/categories/Fortran/">Fortran</a><small>1</small></li>
+  
+    <li><a href="/categories/Hexo/">Hexo</a><small>1</small></li>
+  
+    <li><a href="/categories/Intuitive-Math/">Intuitive Math</a><small>2</small></li>
+  
+    <li><a href="/categories/LaTeX/">LaTeX</a><small>1</small></li>
+  
+    <li><a href="/categories/Linux/">Linux</a><small>1</small></li>
+  
+    <li><a href="/categories/Python/">Python</a><small>3</small></li>
+  
+    <li><a href="/categories/历史/">历史</a><small>2</small></li>
+  
+    <li><a href="/categories/图像处理/">图像处理</a><small>2</small></li>
+  
+    <li><a href="/categories/工具应用/">工具应用</a><small>1</small></li>
+  
+    <li><a href="/categories/数学杂谈/">数学杂谈</a><small>13</small></li>
+  
+    <li><a href="/categories/有限元/">有限元</a><small>1</small></li>
+  
+    <li><a href="/categories/机器学习/">机器学习</a><small>1</small></li>
+  
+    <li><a href="/categories/物理随笔/">物理随笔</a><small>2</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tagcloud">
+  <h3 class="title">标签云</h3>
+  <div class="entry">
+    <a href="/tags/Bernstein多项式/" style="font-size: 10px;">Bernstein多项式</a><a href="/tags/Bezier曲线/" style="font-size: 10px;">Bézier曲线</a><a href="/tags/C/" style="font-size: 10px;">C++</a><a href="/tags/Emacs/" style="font-size: 10px;">Emacs</a><a href="/tags/Fortran/" style="font-size: 10px;">Fortran</a><a href="/tags/LaTeX/" style="font-size: 15px;">LaTeX</a><a href="/tags/Logistic/" style="font-size: 10px;">Logistic</a><a href="/tags/Python/" style="font-size: 20px;">Python</a><a href="/tags/beamer/" style="font-size: 10px;">beamer</a><a href="/tags/chrome/" style="font-size: 10px;">chrome</a><a href="/tags/markdown/" style="font-size: 10px;">markdown</a><a href="/tags/marked/" style="font-size: 10px;">marked</a><a href="/tags/mathJax/" style="font-size: 10px;">mathJax</a><a href="/tags/matplotlib/" style="font-size: 20px;">matplotlib</a><a href="/tags/互信息/" style="font-size: 10px;">互信息</a><a href="/tags/仿射变换/" style="font-size: 10px;">仿射变换</a><a href="/tags/优化/" style="font-size: 10px;">优化</a><a href="/tags/历史/" style="font-size: 15px;">历史</a><a href="/tags/变分法/" style="font-size: 15px;">变分法</a><a href="/tags/国史大纲/" style="font-size: 10px;">国史大纲</a><a href="/tags/奇异值分解/" style="font-size: 10px;">奇异值分解</a><a href="/tags/并行计算/" style="font-size: 10px;">并行计算</a><a href="/tags/张量，度量张量/" style="font-size: 10px;">张量，度量张量</a><a href="/tags/形态学/" style="font-size: 10px;">形态学</a><a href="/tags/微积分/" style="font-size: 10px;">微积分</a><a href="/tags/惯性矩/" style="font-size: 10px;">惯性矩</a><a href="/tags/拉普拉斯变换/" style="font-size: 10px;">拉普拉斯变换</a><a href="/tags/散度定理/" style="font-size: 10px;">散度定理</a><a href="/tags/数据压缩/" style="font-size: 10px;">数据压缩</a><a href="/tags/斐波那契数列/" style="font-size: 10px;">斐波那契数列</a><a href="/tags/最小二乘/" style="font-size: 10px;">最小二乘</a><a href="/tags/有限元/" style="font-size: 10px;">有限元</a><a href="/tags/机器学习/" style="font-size: 10px;">机器学习</a><a href="/tags/样条曲线/" style="font-size: 10px;">样条曲线</a><a href="/tags/格林公式/" style="font-size: 10px;">格林公式</a><a href="/tags/格林恒等式/" style="font-size: 10px;">格林恒等式</a><a href="/tags/概率/" style="font-size: 10px;">概率</a><a href="/tags/正定矩阵/" style="font-size: 10px;">正定矩阵</a><a href="/tags/海森矩阵，最小作用量/" style="font-size: 10px;">海森矩阵，最小作用量</a><a href="/tags/点云重建/" style="font-size: 10px;">点云重建</a><a href="/tags/积分/" style="font-size: 15px;">积分</a><a href="/tags/线性代数/" style="font-size: 15px;">线性代数</a><a href="/tags/组合数学/" style="font-size: 10px;">组合数学</a><a href="/tags/读书笔记/" style="font-size: 10px;">读书笔记</a><a href="/tags/雅克比矩阵/" style="font-size: 10px;">雅克比矩阵</a>
+  </div>
+</div>
+
+
+  <div class="widget tag">
+<h3 class="title">友情链接</h3>
+<ul class="entry">
+<li><a href="http://zipperary.com/" title="Zippera's Blog">Zippera</a></li>
+<li><a href="http://www.lixthu.com/" title="La Fantasia">La Fantasia</a></li>
+<li><a href="http://zh.lucida.me/" title="lucida">lucida</a></li>
+<li><a href="http://zhiqiang.org/blog/" title="阅微堂">阅微堂</a></li>
+<li><a href="http://lukang.me/" title="Kang Lu' Blog">Kang Lu' Blog</a></li>
+</ul>
+</div>
+
+
+  <div class="widget recent comments">
+<h3 class="title">最新评论</h3>
+<ul class="ds-recent-comments" data-num-items="10" data-show-avatars="1" data-show-time="1" data-show-admin="1" data-excerpt-length="70"></ul>
+<!--多说js加载开始，一个页面只需要加载一次 -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"maplewizard"};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+<!--多说js加载结束，一个页面只需要加载一次 -->
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2015 Z.H. Fu
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+</html>
