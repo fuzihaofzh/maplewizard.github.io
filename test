@@ -1,0 +1,25 @@
+#!/bin/bash
+
+function ergodic(){
+#for file in ` ls $1 `
+ls "${1}" | while read file
+do
+	if [ -d "${1}/${file}" ] #如果 file存在且是一个目录则为真
+	then	
+	      ergodic "${1}/${file}" "${2}/${file}"
+	else
+	      local path="${1}/${file}" #得到文件的完整的目录
+	      local name=$file       #得到文件的名字
+	      #做自己的工作.
+	      echo $path $file
+	      echo -e "<!DOCTYPE HTML>\n<html>\n	<head>\n		<meta http-equiv=\"refresh\" content=\"0;url=http://www.fuzihao.org/blog${2}/\">\n	</head>\n	<body>\n		<meta charset=\"utf-8\">\n切问录已经搬迁到新的域名：<a href="http://www.fuzihao.org/blog">http://www.fuzihao.org/blog</a>\n		<h1><a href=\"http://www.fuzihao.org/blog/${2}/\">点击阅读文章</a></h1>\n	<body>\n</html> 
+" > "${path}"
+	      
+	fi
+
+done
+}
+INIT_PATH="/home/maple/workspace/del/testhexo3/public/2014"
+REL_PATH="/2014"
+ergodic $INIT_PATH $REL_PATH
+
